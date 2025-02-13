@@ -1,0 +1,12 @@
+google-cloud-vision
+google-cloud-aiplatform
+google-generativeai
+python-dotenv
+grpcio
+pillow
+requests
+pandas
+opencv-python
+kagglehub
+scikit-learn
+seaborn

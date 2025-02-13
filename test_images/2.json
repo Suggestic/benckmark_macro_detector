@@ -1,0 +1,106 @@
+{
+  "results": {
+    "visual_analysis": {
+      "status": "success",
+      "data": {
+        "ingredients": [
+          {
+            "name": "beef tartare",
+            "visible_amount": "one serving"
+          },
+          {
+            "name": "parmesan cheese",
+            "visible_amount": "one slice"
+          },
+          {
+            "name": "bread",
+            "visible_amount": "two slices"
+          },
+          {
+            "name": "greens",
+            "visible_amount": "small amount"
+          }
+        ],
+        "plate_size": "medium"
+      },
+      "metadata": {
+        "attempts": 1,
+        "step": "visual_analysis"
+      }
+    },
+    "portion_analysis": {
+      "status": "success",
+      "data": {
+        "total_portion_size": "one serving",
+        "portions": [
+          {
+            "ingredient": "beef tartare",
+            "amount": "100",
+            "unit": "g",
+            "grams": 100
+          },
+          {
+            "ingredient": "parmesan cheese",
+            "amount": "1",
+            "unit": "slice",
+            "grams": 10
+          },
+          {
+            "ingredient": "bread",
+            "amount": "2",
+            "unit": "slices",
+            "grams": 40
+          },
+          {
+            "ingredient": "greens",
+            "amount": "15",
+            "unit": "g",
+            "grams": 15
+          }
+        ]
+      },
+      "metadata": {
+        "attempts": 1,
+        "step": "portion_analysis"
+      }
+    },
+    "cooking_analysis": {
+      "status": "success",
+      "data": {
+        "methods": [
+          "raw"
+        ],
+        "added_fats": "olive oil"
+      },
+      "metadata": {
+        "attempts": 1,
+        "step": "cooking_analysis"
+      }
+    },
+    "nutrition_analysis": {
+      "status": "success",
+      "data": {
+        "summary": {
+          "calories": 525,
+          "protein": 45,
+          "carbs": 35,
+          "fat": 30,
+          "meal_type": "lunch"
+        },
+        "confidence": 0.8
+      },
+      "metadata": {
+        "attempts": 1,
+        "step": "nutrition_analysis"
+      }
+    }
+  },
+  "metadata": {
+    "completed_steps": [
+      "visual_analysis",
+      "portion_analysis",
+      "cooking_analysis",
+      "nutrition_analysis"
+    ]
+  }
+}
